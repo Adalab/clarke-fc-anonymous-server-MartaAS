@@ -28,9 +28,23 @@ body {
 
 /* MENU */
 .nav {}
-.nav__items {}
-.nav__item {}
-.nav__link {}
+.nav__items {
+  list-style: none;
+}
+.nav__item {
+
+}
+
+.nav__link {
+  text-decoration:none;
+}
+.nav__link:visited{
+   color:#99CC66;
+}
+.nav__link:hover{
+   color:#441111; background: #777554;
+}
+
 .nav-close {
   background-image: url('../images/ico-close.svg');
   background-repeat: no-repeat;

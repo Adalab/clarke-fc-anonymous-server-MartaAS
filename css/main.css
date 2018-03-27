@@ -8,7 +8,7 @@ body {
   background-size: cover;
   background-position: bottom;
   height: 100%;
-  width: 100%;  
+  width: 100%;
 }
 
 
@@ -16,7 +16,12 @@ body {
 
 /* HEADER */
 .page__header {}
-.nav-trigger {}
+.nav-trigger {
+  background-image: url('../images/ico-menu.svg');
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
 
 
 
@@ -26,7 +31,12 @@ body {
 .nav__items {}
 .nav__item {}
 .nav__link {}
-.nav-close {}
+.nav-close {
+  background-image: url('../images/ico-close.svg');
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+}
 
 
 

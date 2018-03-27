@@ -1,6 +1,15 @@
 /* COMMON */
-body {}
-.page {}
+body {
+  margin: 0;}
+
+.page {
+  background-image: url(../images/anonymous-server-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
+  width: 100%;  
+}
 
 
 
